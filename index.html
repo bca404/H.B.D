@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <style>
+        body {
+            background: linear-gradient(#f2eee3, #e9d1d0, #fae0ba, #eb8c73, #f0ded1, #dec4a7);
+            animation: gradient 0.1s infinite;
+        }
+        .profile-card {
+            animation: rotate 1.5s both;
+            content: '';
+            position: relative;
+            top: 50px;
+            left: 350px;
+            right: 50px;
+            bottom: 250px;
+            width: 270px;
+            height: 270px;
+            border-radius: 79px;
+            border: 5px outset;
+            border-width: 10px;
+            border-color: papayawhip;
+            padding: 30px;
+            transform: skewX(2deg) skewY(4deg);
+            background: linear-gradient(45deg, #ffcc5c 20%, #3c3c3c 20% 50%, #ff6f69 50% 80%, #96ceb4 80%);
+            box-shadow: 0 0 20px 0 orange;
+        }
+        .card {
+            height: 100%;
+            padding: 10px 35px;
+            animation: textanimate 1.5s both;
+            color: rgb(241, 240, 237);
+            font-size: 1rem;
+        }
+        h1{
+                text-shadow:darkorange -2px 0;
+            }
+        @keyframes rotate {
+            0% {
+                transform-origin: left bottom;
+                transform: rotate3d(0, 0, 1, 45deg);
+                opacity: 0;
+            }
+            100% {
+                transform-origin: left bottom;
+                transform: none;
+                opacity: 1;
+            }
+        }
+        @keyframes textanimate {
+            0% {
+                transform: rotateY(200px);
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <div class="card">
+                <h1 style="font-family:monospace;">
+                    I Hope You Age Gets
+                    Incremented Without
+                    Bugs....[H.B.D]&#127851;
+                </h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
